@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import spotify from '../lib/components/spotify.svelte';
+</script>
+
+<main class="p-3">
+	<h1 class="text-3xl font-bold underline">welcome to the runova app</h1>
+	<p>{spotify}</p>
+</main>
